@@ -1,0 +1,138 @@
+
+========================================
+New AskBot Session: 2026-08-13 00:36:38
+========================================
+
+[2026-08-13 00:36:41] You: hey there
+[2026-08-13 00:36:41] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+[2026-08-13 00:37:18] You: define geology
+[2026-08-13 00:37:18] AskBot: Geology is a branch of natural science concerned with the Earth and other astronomical bodies, the rocks of which they are composed, and the processes by which they change over time. The name comes from Ancient Greek  γῆ (gê) 'earth' and  λoγία (-logía) 'study of, discourse'.
+
+[2026-08-13 00:37:30] You: who is donald trump
+[2026-08-13 00:37:30] AskBot: Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.
+
+[2026-08-13 00:37:44] You: waht is planet earth
+[2026-08-13 00:37:44] AskBot: I'm not sure how to help with that. Try asking me to define something or ask 'who is' followed by a name.
+
+[2026-08-13 00:37:57] You: what is planet earth
+[2026-08-13 00:37:57] AskBot: Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water.
+
+[2026-08-13 00:38:15] You: tell me about the great depression
+[2026-08-13 00:38:15] AskBot: I could not find information on that topic.
+
+[2026-08-13 00:38:29] You: tell me about the civil war
+[2026-08-13 00:38:29] AskBot: The American Civil War (April 12, 1861 – May 26, 1865; also known by other names) was a civil war in the United States between the Union ("the North") and the Confederacy ("the South"), which was formed in 1861 by states that had seceded from the Union to preserve slavery in the United States. The South saw slavery as threatened because of the election of Abraham Lincoln and the growing abolitionist movement in the North.
+
+[2026-08-13 00:39:04] You: thank you
+[2026-08-13 00:39:04] AskBot: You're welcome! Any other questions?
+
+[2026-08-13 00:39:08] You: bye
+[2026-08-13 00:39:08] AskBot: Goodbye! Have a great day.
+
+
+========================================
+New AskBot Session: 2026-08-13 10:51:04
+========================================
+
+[2026-08-13 10:51:06] You: hey
+[2026-08-13 10:51:06] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+[2026-08-13 10:51:21] You: who is michael jackson
+[2026-08-13 10:51:21] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 10:51:29] You: who is michael jackson
+[2026-08-13 10:51:29] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 10:51:34] You: what is planet earth
+[2026-08-13 10:51:34] AskBot: I was unable to retrieve information right now.
+
+
+========================================
+New AskBot Session: 2026-08-13 10:51:45
+========================================
+
+[2026-08-13 10:51:51] You: who is micahel jackson
+[2026-08-13 10:51:51] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 10:52:14] You: thank you
+[2026-08-13 10:52:14] AskBot: You're welcome! Any other questions?
+
+
+========================================
+New AskBot Session: 2026-08-13 10:52:32
+========================================
+
+[2026-08-13 10:52:33] You: hey
+[2026-08-13 10:52:33] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+[2026-08-13 10:52:39] You: who is michael jackson
+[2026-08-13 10:52:39] AskBot: I was unable to retrieve information right now.
+
+
+========================================
+New AskBot Session: 2026-08-13 10:58:02
+========================================
+
+[2026-08-13 10:58:02] You: hey
+[2026-08-13 10:58:02] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+[2026-08-13 10:58:07] You: who is michael jackson
+[2026-08-13 10:58:07] AskBot: I could not find information on that topic.
+
+[2026-08-13 10:58:15] You: who is donald trumo
+[2026-08-13 10:58:15] AskBot: Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.
+
+[2026-08-13 10:58:22] You: who is michael jackson singer
+[2026-08-13 10:58:22] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 10:58:29] You: who is michael jackson singer
+[2026-08-13 10:58:29] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 10:58:33] You: who is donald trump
+[2026-08-13 10:58:33] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 10:58:39] You: who is jesus christ
+[2026-08-13 10:58:39] AskBot: I was unable to retrieve information right now.
+
+
+========================================
+New AskBot Session: 2026-08-13 11:03:10
+========================================
+
+[2026-08-13 11:03:11] You: hey
+[2026-08-13 11:03:11] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+[2026-08-13 11:03:18] You: who is donald trump
+[2026-08-13 11:03:18] AskBot: I was unable to retrieve information right now.
+
+
+========================================
+New AskBot Session: 2026-08-13 11:04:38
+========================================
+
+[2026-08-13 11:04:42] You: who is donald trump
+[2026-08-13 11:04:42] AskBot: I was unable to retrieve information right now.
+
+[2026-08-13 11:04:47] You: what is planet earth
+[2026-08-13 11:04:47] AskBot: I was unable to retrieve information right now.
+
+
+========================================
+New AskBot Session: 2026-08-13 11:11:20
+========================================
+
+[2026-08-13 11:11:21] You: hello
+[2026-08-13 11:11:21] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+
+========================================
+New AskBot Session: 2026-08-13 11:11:47
+========================================
+
+[2026-08-13 11:11:49] You: hello
+[2026-08-13 11:11:49] AskBot: Hello! I am AskBot. You can ask me about people, concepts, or ask for definitions. Type 'exit', 'bye', or 'quit' to exit.
+
+[2026-08-13 11:11:53] You: who is michael jackson
+[2026-08-13 11:11:53] AskBot: I was unable to retrieve information right now.
+
