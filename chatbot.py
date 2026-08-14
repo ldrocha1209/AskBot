@@ -1,4 +1,4 @@
-import wikipedia
+import requests
 import re
 from datetime import datetime
 
@@ -111,21 +111,81 @@ class AskBot:
 
     # method used to retrieve wikipedia information, used in run method
     def get_wikipedia_summary(self, topic):
+        url = "https://en.wikipedia.org/w/api.php"
+
+        headers = {
+            "User-Agent": "AskBot/1.0 (Python chatbot portfolio project)"
+        }
+
+        params = {
+            "action": "query",
+            "format": "json",
+            "generator": "search",
+            "gsrsearch": topic,
+            "gsrnamespace": 0,
+            "gsrlimit": 5,
+            "prop": "extracts|pageprops",
+            "explaintext": 1,
+            "exintro": 1,
+            "exsentences": 2,
+            "ppprop": "disambiguation"
+        }
+
         try:
-            summary = wikipedia.summary(topic, sentences=2)
-            return summary
+            for attempt in range(3):
+                try:
+                    response = requests.get(
+                        url,
+                        headers=headers,
+                        params=params,
+                        timeout=10
+                    )
 
-        # handles ambiguous topics
-        except wikipedia.exceptions.DisambiguationError as e:
-            return "That topic has multiple possible meanings. Some possible choices are: " + ", ".join(e.options[:5])
+                    response.raise_for_status()
 
-        # handle page not found
-        except wikipedia.exceptions.PageError:
-            return "I could not find information on that topic."
+                    data = response.json()
+                    break
 
-        # handle any other error
-        except Exception as e:
-            print("Wikipedia error:", e)
+                except requests.exceptions.RequestException:
+                    if attempt == 2:
+                        return "I was unable to connect to Wikipedia right now."
+
+            pages = data.get("query", {}).get("pages", {})
+
+            if not pages:
+                return "I could not find information on that topic."
+
+            topic_lower = topic.strip().lower()
+
+            page = None
+
+            for result in pages.values():
+                if result["title"].strip().lower() == topic_lower:
+                    page = result
+                    break
+
+            if page is None:
+                page = next(iter(pages.values()))
+
+            if "pageprops" in page and "disambiguation" in page["pageprops"]:
+                choices = []
+
+                for result in pages.values():
+                    if result["title"].strip().lower() != topic_lower:
+                        choices.append(result["title"])
+
+                if choices:
+                    return "That topic has multiple possible meanings. Some choices are: " + ", ".join(choices[:5])
+
+            if "extract" not in page or not page["extract"]:
+                return "I could not find information on that topic."
+
+            return page["extract"]
+
+        except (ValueError, KeyError, StopIteration):
+            return "Wikipedia returned an unexpected response."
+
+        except Exception:
             return "I was unable to retrieve information right now."
 
     # method used to log every conversation between AskBot and user
